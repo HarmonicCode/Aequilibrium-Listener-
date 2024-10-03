@@ -1,0 +1,146 @@
+/*navbar*/
+.nav-item-margin {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+/*.navbar-item {
+  font-family:Merriweather;
+}*/
+
+@media (min-width: 768px) {
+  .navbar {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#191970;
+    
+  }
+}
+
+/*about first para*/
+.about-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.custom-font {
+    font-family:Arial, Helvetica, sans-serif;
+}
+.blockquote-footer {
+    font-size: 3rem;
+}
+.image-container img {
+    border-radius: 5px;
+    max-width: 100%;
+}
+.hollow-outline-text {
+  font-size: 100px; /* Adjust the font size as needed */
+  color: #000080;
+  word-spacing: 200px;
+ 
+  transform:translate(-50%,-50%);
+  -webkit-text-fill-color:transparent;
+  -webkit-text-stroke-width: 2px;
+  position: absolute;
+  top: 20px;
+  left: 170px;
+}
+.blockquote{
+  color:#800000		;
+
+}
+
+.blockquote-footer:before,
+.blockquote-footer:after {
+  content: none !important; /* Ensure no pseudo-elements add unwanted symbols */
+ 
+}
+
+
+.hollow-outline-text {
+  font-size: 4rem; /* Adjust the font size as needed */
+ 
+  position: relative;
+  display: inline-block;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+ 
+}
+
+
+
+.shift-right {
+  margin-left: auto; /* Pushes the column to the right */
+}
+
+
+
+.right-align-md {
+  text-align: center; /* Default alignment for small screens */
+}
+@media (min-width: 768px) {
+  .right-align-md {
+      text-align: right; /* Right align for medium and larger screens */
+  }
+}
+
+@media (min-width: 992px) {
+    .lines {
+      font-size: 20px;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+}
+.custom-btn {
+    margin-top: 50px; /* Adjust this value as needed */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*second paragr*/
+.second {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.paragraph-space {
+    margin-bottom: 1rem; /* Adjust this value as needed */
+}
+
+/*.take{
+  background-color: #0096FF;
+}*/
+
+
+/*contact*/
+.email-link {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.image img {
+  width: 600px; /* Set desired width */
+  height: 700px; /* Set desired height */
+   /* Ensures the image covers the set dimensions without distortion */
+}
+
+
+.booking {
+  font-family:Arial, Helvetica, sans-serif;
+}
+.app {
+  
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
